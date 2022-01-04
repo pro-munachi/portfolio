@@ -3,6 +3,8 @@ import { HomeStyle } from './style'
 import homeImg from '../../assets/images/home.png'
 import Card from '../../components/Card/Card'
 import Contact from '../../components/Contact/Contact'
+import UnstyledButtonCustom from '../../components/Button/Button'
+import { NavLink } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -31,9 +33,9 @@ const Home = () => {
 
         <div>
           <Card />
-          <div className='view'>
-            <button>View More</button>
-          </div>
+          <NavLink className='view' to='/projects'>
+            <UnstyledButtonCustom name='View More' />
+          </NavLink>
         </div>
         <h2>
           <span>]</span>

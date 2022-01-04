@@ -106,8 +106,8 @@ export const HomeStyle = styled.div`
     }
 
     .view {
-      width: 50%;
-      margin: auto;
+      display: flex;
+      justify-content: center;
       @media (max-width: 750px) {
         width: 100%;
       }

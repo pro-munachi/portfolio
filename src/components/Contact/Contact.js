@@ -1,4 +1,5 @@
 import React from 'react'
+import UnstyledButtonCustom from '../Button/Button'
 import { ContactStyle } from './style'
 
 const Contact = () => {
@@ -14,7 +15,7 @@ const Contact = () => {
         me. However, if you have other request or question, I'm still up for it.
       </p>
       <div className='view'>
-        <button>Shoot an email</button>
+        <UnstyledButtonCustom name='Send an Email' />
       </div>
       <h2>
         <span>]</span>

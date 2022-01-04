@@ -9,8 +9,6 @@ export const CardStyle = styled.div`
     box-sizing: border-box;
   }
 
-  font-family: 'Ubuntu', sans-serif;
-
   align-items: center;
 
   .card-container {
@@ -60,6 +58,18 @@ export const CardStyle = styled.div`
     border: none;
     transition: all 0.3s linear;
     color: white;
+
+    button {
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      font-weight: 400;
+      transition: all 0.3s linear;
+      cursor: pointer;
+    }
   }
   .card .btn:hover {
     background: #333;
