@@ -41,7 +41,7 @@ export const NavStyle = styled.div`
       top: 0;
       height: 100vh;
       margin-right: 0em;
-      background: #0d0d0d;
+      background: #379683;
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -82,7 +82,16 @@ export const ButtonStyle = styled.div`
   cursor: pointer;
   z-index: 99;
   .line1 {
-    background: #ff0099;
+    background: #379683;
+    width: 45px;
+    height: 2px;
+    margin: 5px;
+    border-radius: 2px;
+    transform: ${(props) => props.line1};
+    transition: 0.5s;
+  }
+  .line1w {
+    background: white;
     width: 45px;
     height: 2px;
     margin: 5px;
@@ -91,7 +100,7 @@ export const ButtonStyle = styled.div`
     transition: 0.5s;
   }
   .line2 {
-    background: #ff0099;
+    background: black;
     width: 25px;
     height: 2px;
     margin: 5px;
@@ -99,7 +108,16 @@ export const ButtonStyle = styled.div`
     opacity: ${(props) => props.line2};
   }
   .line3 {
-    background: #ff0099;
+    background: #379683;
+    width: 45px;
+    height: 2px;
+    margin: 5px;
+    border-radius: 2px;
+    transform: ${(props) => props.line3};
+    transition: 0.5s;
+  }
+  .line3w {
+    background: white;
     width: 45px;
     height: 2px;
     margin: 5px;

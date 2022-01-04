@@ -68,6 +68,7 @@ class NavBar extends React.Component {
         line1: 'rotate(-45deg) translate(-4px,6px)',
         line2: '0',
         line3: 'rotate(45deg) translate(-4px,-6px)',
+        display: this.state.display,
       })
     } else {
       this.setState({
@@ -75,6 +76,7 @@ class NavBar extends React.Component {
         line1: '',
         line2: '1',
         line3: '',
+        display: this.state.display,
       })
     }
   }
@@ -111,13 +113,22 @@ class NavBar extends React.Component {
               Home<span></span>
             </NavLink>
             <NavLink
-              to='/whatweoffer'
+              to='/about'
               onClick={this.onClickBackdrop}
               className={({ isActive }) =>
                 isActive ? 'when_active_mobile' : 'single_item'
               }
             >
-              What we Offer<span></span>
+              About<span></span>
+            </NavLink>
+            <NavLink
+              to='/projects'
+              onClick={this.onClickBackdrop}
+              className={({ isActive }) =>
+                isActive ? 'when_active_mobile' : 'single_item'
+              }
+            >
+              Projects<span></span>
             </NavLink>
           </div>
         </div>

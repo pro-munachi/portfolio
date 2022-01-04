@@ -1,7 +1,11 @@
+.App {
+  font-family: 'K2D', sans-serif;
+}
+
 .App .routes {
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.966),
-      rgba(255, 255, 255, 0.815)
+      rgba(255, 255, 255, 0.925)
     ),
     url('./assets/images/back.jpg');
   background-position: center; /* Center the image */
