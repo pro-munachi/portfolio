@@ -130,6 +130,15 @@ class NavBar extends React.Component {
             >
               Projects<span></span>
             </NavLink>
+            <NavLink
+              to='/contact'
+              onClick={this.onClickBackdrop}
+              className={({ isActive }) =>
+                isActive ? 'when_active_mobile' : 'single_item'
+              }
+            >
+              Contact Me<span></span>
+            </NavLink>
           </div>
         </div>
 

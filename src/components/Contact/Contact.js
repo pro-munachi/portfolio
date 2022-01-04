@@ -15,7 +15,9 @@ const Contact = () => {
         me. However, if you have other request or question, I'm still up for it.
       </p>
       <div className='view'>
-        <UnstyledButtonCustom name='Send an Email' />
+        <a href='mailto:madustanley1@gmail.com'>
+          <UnstyledButtonCustom name='Send an Email' />
+        </a>
       </div>
       <h2>
         <span>]</span>

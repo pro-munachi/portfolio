@@ -66,7 +66,7 @@ export const AboutStyle = styled.div`
     width: 100%;
     overflow: hidden;
     align-items: center;
-    margin: 20% 0;
+    margin: 10% 0;
     @media (max-width: 850px) {
       flex-direction: column-reverse;
     }

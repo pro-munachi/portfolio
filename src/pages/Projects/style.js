@@ -20,7 +20,7 @@ export const ProjectStyle = styled.div`
   }
 
   .first {
-    margin: 20% 0;
+    margin: 10% 0;
 
     h2 {
       text-align: center;

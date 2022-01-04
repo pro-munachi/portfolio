@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const HomeStyle = styled.div`
+export const ContactStyle = styled.div`
   width: 80%;
   margin: 15% auto 0 auto;
 
@@ -8,7 +8,7 @@ export const HomeStyle = styled.div`
     width: 90%;
   }
 
-  .homa {
+  h1 {
     font-size: 60px;
     font-family: 'Literata', sans-serif;
     @media (max-width: 850px) {
@@ -19,32 +19,33 @@ export const HomeStyle = styled.div`
     }
   }
 
-  .top {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    overflow: hidden;
-    align-items: center;
-    margin: 10% 0;
-    @media (max-width: 850px) {
-      flex-direction: column;
-    }
-  }
-
-  .text {
-    width: 45%;
-    @media (max-width: 850px) {
-      width: 100%;
-    }
+  .sannu {
+    margin-top: 10% ;
 
     h2 {
-      font-size: 46px;
+        text-align: center;
+        font-size: 46px;
+        @media (max-width: 850px) {
+          font-size: 36px;
+        }
+        @media (max-width: 650px) {
+          font-size: 36px;
+        }
+  
+        span {
+          opacity: 0.5;
+        }
+      }
+    }
 
+  h2 {
+      text-align: center;
+      font-size: 46px;
       @media (max-width: 850px) {
         font-size: 36px;
       }
       @media (max-width: 650px) {
-        font-size: 26px;
+        font-size: 36px;
       }
 
       span {
@@ -52,62 +53,60 @@ export const HomeStyle = styled.div`
       }
     }
 
+  .first {
+
+  .left {
+    width: 100%;
+  
+
+    .top {
+        width: 70%
+        @media (max-width: 850px) {
+          width: 100%;
+        }
+    }
+
+    .bottom {
+        width: 100%;
+    }
+
+    h2 {
+        text-align: left;
+      font-size: 46px;
+      @media (max-width: 850px) {
+        font-size: 36px;
+      }
+      @media (max-width: 650px) {
+        font-size: 36px;
+      }
+  
+      span {
+        opacity: 0.5;
+      }
+    }
+  
     h1 {
       font-size: 60px;
       font-family: 'Literata', sans-serif;
       @media (max-width: 850px) {
-        font-size: 47px;
-      }
-      @media (max-width: 650px) {
-        font-size: 38px;
-      }
+          font-size: 47px;
+        }
+        @media (max-width: 650px) {
+          font-size: 36px;
+        }
     }
-  }
-
-  .img {
-    width: 45%;
-    height: 500px;
-    @media (max-width: 850px) {
-      width: 80%;
-      margin: auto;
-      height: 400px;
-    }
-    @media (max-width: 650px) {
-      width: 100%;
-      height: 450px;
-    }
-
-    img {
-      width: 100%;
-      height: 100%;
-      border-radius: 10px;
-    }
-  }
-
-  .middle {
-    h2 {
-      font-size: 46px;
-      @media (max-width: 850px) {
-        font-size: 36px;
-      }
-      @media (max-width: 650px) {
-        font-size: 36px;
-      }
-
-      span {
-        opacity: 0.5;
-      }
-    }
-
+  
     p {
       font-size: 22px;
-      text-align: center;
-      font-style: italic;
+      width: 70%;
+      @media (max-width: 850px) {
+        width: 100%;
+      }
     }
-
+  
     .view {
-      display: flex;
-      justify-content: center;
+      width: 50%;
+      margin: 35px 0 0 0;
       @media (max-width: 750px) {
         width: 100%;
       }
@@ -122,10 +121,7 @@ export const HomeStyle = styled.div`
           width: 100%;
         }
       }
-    }
   }
 
-  .last {
-    margin: 15% 0;
-  }
+}
 `

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
 import { SingleStyle } from './style'
-import cards from '../../assets/File/ProjectList'
+import all from '../../assets/File/AllList'
 import UnstyledButtonCustom from '../../components/Button/Button'
 import Contact from '../../components/Contact/Contact'
 
@@ -12,9 +12,9 @@ const SinglePage = () => {
   let project = useParams()
 
   useEffect(() => {
-    for (let i = 0; i < cards.length; i++) {
-      if (project.project === cards[i].head) {
-        setPro(cards[i])
+    for (let i = 0; i < all.length; i++) {
+      if (project.project === all[i].head) {
+        setPro(all[i])
       }
     }
   }, [project])
@@ -77,7 +77,12 @@ const SinglePage = () => {
           <div className='web'>
             {pro.links &&
               pro.links.map((item) => (
-                <a href={item.link} key={item.id}>
+                <a
+                  href={item.link}
+                  key={item.id}
+                  rel='noreferrer noopener'
+                  target='_blank'
+                >
                   <UnstyledButtonCustom name={item.name} />
                 </a>
               ))}

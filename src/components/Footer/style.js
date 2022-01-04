@@ -24,7 +24,8 @@ export const FooterStyle = styled.footer`
       margin: 0 10px;
       a {
         text-decoration: none;
-        font-size: 23px;
+        font-size: 20px;
+        color: #379683;
       }
     }
   }

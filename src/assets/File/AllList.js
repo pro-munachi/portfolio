@@ -11,16 +11,22 @@ import imma1 from '../images/imma1.PNG'
 import imma2 from '../images/imma2.PNG'
 import port1 from '../images/port1.PNG'
 import port2 from '../images/port2.PNG'
+import meme1 from '../images/meme1.PNG'
+import meme2 from '../images/meme2.PNG'
+import coupon1 from '../images/coupon1.PNG'
+import coupon2 from '../images/coupon2.PNG'
+import github from '../images/github.PNG'
 import react from '../logos/react-seeklogo.com.svg'
 import material from '../logos/material-ui-seeklogo.com.svg'
 import bootstrap from '../logos/bootstrap-seeklogo.com.svg'
 import css from '../logos/css-3-seeklogo.com.svg'
 import express from '../logos/expressjs.png'
 import mongo from '../logos/mongodb-seeklogo.com.svg'
+import html from '../logos/html5-without-wordmark-color.svg'
 import redux from '../logos/redux-seeklogo.com.svg'
 import styled from '../logos/styled.png'
 
-const cards = [
+const all = [
   {
     id: 1,
     head: 'Joyride',
@@ -64,7 +70,6 @@ const cards = [
       { img: css, name: 'CSS' },
       { img: express, name: 'Expressjs' },
       { img: mongo, name: 'MongoDb' },
-      { img: redux, name: 'Redux' },
     ],
     links: [
       {
@@ -103,7 +108,7 @@ const cards = [
   {
     id: 4,
     head: 'Munachi',
-    body: 'This is my portfolio website which was built to display my skills.',
+    body: 'This is my portfolio website.',
     img: homeImg,
     second: port1,
     third: port2,
@@ -151,6 +156,76 @@ const cards = [
       },
     ],
   },
+  {
+    id: 6,
+    head: 'Meme Generator',
+    body: '  The website generates memes with random pictures and with the words you inputed.',
+    img: homeImg,
+    second: meme1,
+    third: meme2,
+    arsenal: [
+      { img: react, name: 'Reactjs' },
+      { img: css, name: 'CSS' },
+    ],
+    links: [
+      {
+        link: 'github.com',
+        name: 'Github',
+        id: 1,
+      },
+      {
+        link: 'https://silly-roentgen-2e4648.netlify.app/',
+        name: 'Website',
+        id: 2,
+      },
+    ],
+  },
+
+  {
+    id: 7,
+    head: 'Coupon Site',
+    body: 'A site for inputing a coupon code which will discount the price of the macbook.',
+    img: hom,
+    second: coupon1,
+    third: coupon2,
+    arsenal: [
+      { img: react, name: 'Reactjs' },
+      { img: css, name: 'CSS' },
+      { img: redux, name: 'Redux' },
+    ],
+    links: [
+      {
+        link: 'https://sleepy-newton-34eeab.netlify.app/',
+        name: 'Website',
+        id: 1,
+      },
+    ],
+  },
+
+  {
+    id: 8,
+    head: 'Github',
+    body: 'Replicated the repository page of github for a job interview i had.',
+    img: homeImg,
+    second: github,
+    arsenal: [
+      { img: html, name: 'HTML' },
+      { img: css, name: 'CSS' },
+    ],
+    links: [
+      {
+        link: 'https://github.com/pro-munachi/Git-hub',
+        name: 'Github',
+        id: 1,
+      },
+
+      {
+        link: 'https://epic-jones-15604d.netlify.app/',
+        name: 'Website',
+        id: 2,
+      },
+    ],
+  },
 ]
 
-export default cards
+export default all

@@ -6,17 +6,31 @@ const Footer = () => {
     <FooterStyle>
       <div className='link'>
         <p>
-          <a href='hjjj'>Email</a>
+          <a href='hjjj' rel='noreferrer noopener' target='_blank'>
+            Email
+          </a>
         </p>
         <p>
-          <a href='hjjj'>Github</a>
+          <a
+            href='https://github.com/pro-munachi'
+            rel='noreferrer noopener'
+            target='_blank'
+          >
+            Github
+          </a>
         </p>
         <p>
-          <a href='hjjj'>LinkedIn</a>
+          <a
+            href='https://www.linkedin.com/in/munachiso'
+            rel='noreferrer noopener'
+            target='_blank'
+          >
+            LinkedIn
+          </a>
         </p>
       </div>
       <div className='copyright'>
-        <p>c Munachiso 2022</p>
+        <p> &copy; Munachiso 2022</p>
       </div>
     </FooterStyle>
   )
