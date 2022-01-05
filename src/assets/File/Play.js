@@ -1,10 +1,12 @@
-import homeImg from '../images/home.png'
-import hom from '../images/card1.PNG'
+import meme from '../images/meme.PNG'
 import meme1 from '../images/meme1.PNG'
 import meme2 from '../images/meme2.PNG'
+import coupon from '../images/coupon.PNG'
 import coupon1 from '../images/coupon1.PNG'
 import coupon2 from '../images/coupon2.PNG'
 import github from '../images/github.PNG'
+import github1 from '../images/github1.PNG'
+import github2 from '../images/github2.PNG'
 import react from '../logos/react-seeklogo.com.svg'
 import css from '../logos/css-3-seeklogo.com.svg'
 import html from '../logos/html5-without-wordmark-color.svg'
@@ -15,7 +17,7 @@ const play = [
     id: 1,
     head: 'Meme Generator',
     body: '  The website generates memes with random pictures and with the words you inputed.',
-    img: homeImg,
+    img: meme,
     second: meme1,
     third: meme2,
     arsenal: [
@@ -40,7 +42,7 @@ const play = [
     id: 2,
     head: 'Coupon Site',
     body: 'A site for inputing a coupon code which will discount the price of the macbook.',
-    img: hom,
+    img: coupon,
     second: coupon1,
     third: coupon2,
     arsenal: [
@@ -61,8 +63,9 @@ const play = [
     id: 3,
     head: 'Github',
     body: 'Replicated the repository page of github for a job interview i had.',
-    img: homeImg,
-    second: github,
+    img: github1,
+    first: github,
+    second: github2,
     arsenal: [
       { img: html, name: 'HTML' },
       { img: css, name: 'CSS' },

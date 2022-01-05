@@ -1,5 +1,6 @@
-import homeImg from '../images/home.png'
-import hom from '../images/card1.PNG'
+import alien from '../images/alien.PNG'
+import joyride from '../images/joyride.PNG'
+import mcbee from '../images/mcbee.PNG'
 
 const HomeCard = [
   {
@@ -7,21 +8,21 @@ const HomeCard = [
     head: 'Joyride',
     body: '  Joyride is a web application for dispatch rides. where a usercreates an order and the order is dispatched by the dispatchers.',
     link: '/',
-    img: homeImg,
+    img: joyride,
   },
   {
     id: 2,
     head: 'Mcbee',
-    body: '  Joyride is a web application for dispatch rides. where a usercreates an order and the order is dispatched by the dispatchers.',
+    body: '  Mcbee is an E-commerce website for buying different kinds of goods.',
     link: '/',
-    img: hom,
+    img: mcbee,
   },
   {
     id: 3,
     head: 'Alien Bandit',
-    body: '  Joyride is a web application for dispatch rides. where a usercreates an order and the order is dispatched by the dispatchers.',
+    body: 'Alien Bandit is a website for an NFT brand Alien Bandits.',
     link: '/',
-    img: homeImg,
+    img: alien,
   },
 ]
 

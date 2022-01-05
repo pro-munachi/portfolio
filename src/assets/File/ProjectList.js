@@ -1,14 +1,19 @@
 import homeImg from '../images/home.png'
 import hom from '../images/card1.PNG'
+import joyride from '../images/joyride.PNG'
 import joyride1 from '../images/joyride1.PNG'
 import joyride2 from '../images/joyride2.PNG'
 import joyride3 from '../images/joyride3.PNG'
+import alien from '../images/alien.PNG'
 import alien1 from '../images/alien1.PNG'
 import alien2 from '../images/alien2.PNG'
+import mcbee from '../images/mcbee.PNG'
 import mcbee1 from '../images/mcbee1.PNG'
 import mcbee2 from '../images/mcbee2.PNG'
+import imma from '../images/imma.PNG'
 import imma1 from '../images/imma1.PNG'
 import imma2 from '../images/imma2.PNG'
+import port from '../images/port.PNG'
 import port1 from '../images/port1.PNG'
 import port2 from '../images/port2.PNG'
 import react from '../logos/react-seeklogo.com.svg'
@@ -25,7 +30,7 @@ const cards = [
     id: 1,
     head: 'Joyride',
     body: '  Joyride is a web application for dispatch rides. where a usercreates an order and the order is dispatched by the dispatchers.',
-    img: homeImg,
+    img: joyride,
     first: joyride1,
     second: joyride2,
     third: joyride3,
@@ -55,7 +60,7 @@ const cards = [
     id: 2,
     head: 'Mcbee',
     body: '  Mcbee is an E-commerce website for buying different kinds of goods.',
-    img: hom,
+    img: mcbee,
     second: mcbee1,
     third: mcbee2,
     arsenal: [
@@ -81,7 +86,7 @@ const cards = [
     id: 3,
     head: 'Alien Bandit',
     body: 'Alien Bandit is a website for an NFT brand Alien Bandits.',
-    img: homeImg,
+    img: alien,
     second: alien1,
     third: alien2,
     arsenal: [
@@ -104,7 +109,7 @@ const cards = [
     id: 4,
     head: 'Munachi',
     body: 'This is my portfolio website which was built to display my skills.',
-    img: homeImg,
+    img: port,
     second: port1,
     third: port2,
     arsenal: [
@@ -130,7 +135,7 @@ const cards = [
     id: 5,
     head: 'Immaculate',
     body: 'Immaculate Eye Clinic is a website for an eye clinic hospital which serves the purpose of providing necessary information to patients.',
-    img: homeImg,
+    img: imma,
     second: imma1,
     third: imma2,
     arsenal: [
