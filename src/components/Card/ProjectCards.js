@@ -1,8 +1,6 @@
 import React from 'react'
 
 import { CardStyle } from './styled'
-import homeImg from '../../assets/images/home.png'
-import hom from '../../assets/images/card1.PNG'
 import { NavLink } from 'react-router-dom'
 import cards from '../../assets/File/ProjectList'
 

@@ -1,5 +1,3 @@
-import homeImg from '../images/home.png'
-import hom from '../images/card1.PNG'
 import joyride from '../images/joyride.PNG'
 import joyride1 from '../images/joyride1.PNG'
 import joyride2 from '../images/joyride2.PNG'
