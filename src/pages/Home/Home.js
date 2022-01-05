@@ -1,6 +1,6 @@
 import React from 'react'
 import { HomeStyle } from './style'
-import homeImg from '../../assets/images/home.png'
+import homepi from '../../assets/images/home.png'
 import Card from '../../components/Card/Card'
 import Contact from '../../components/Contact/Contact'
 import UnstyledButtonCustom from '../../components/Button/Button'
@@ -20,7 +20,7 @@ const Home = () => {
           <h1>A SOFTWARE DEVELOPER</h1>
         </div>
         <div className='img'>
-          <img src={homeImg} alt='home-image' />
+          <img src={homepi} alt='home' />
         </div>
       </div>
 

@@ -1,16 +1,9 @@
 import React from 'react'
-import { useState } from 'react'
 import { ButtonStyle } from './style'
 
 function Button(props) {
-  const [click, setClick] = useState(true)
   const clickButton = (value) => {
     props.onClick()
-  }
-
-  const trust = (value) => {
-    setClick(!click)
-    console.log('me')
   }
 
   return (
