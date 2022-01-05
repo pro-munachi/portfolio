@@ -4,9 +4,9 @@ import { ButtonStyle } from './style'
 
 function Button(props) {
   const [click, setClick] = useState(true)
-  const clickButton = () => {
+  const clickButton = (value) => {
     props.onClick()
-    setClick(!click)
+    setClick(value)
   }
 
   return (

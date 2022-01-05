@@ -90,10 +90,7 @@ class NavBar extends React.Component {
         transform={this.state.toggle}
         display={this.state.displayBackdrop}
       >
-        {(window.onscroll = () => this.checkScroll())}
-        {this.state.display ? (
-          <div onClick={this.onClickBackdrop} className='backdrop'></div>
-        ) : null}
+        {/* {(window.onscroll = () => this.checkScroll())} */}
         <div
           style={{ ...styleContain, backgroundColor: this.state.background }}
           className='container'

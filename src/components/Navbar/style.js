@@ -82,7 +82,7 @@ export const ButtonStyle = styled.div`
   cursor: pointer;
   z-index: 99;
   .line1 {
-    background: #379683;
+    background: blue;
     width: 45px;
     height: 2px;
     margin: 5px;
@@ -108,7 +108,7 @@ export const ButtonStyle = styled.div`
     opacity: ${(props) => props.line2};
   }
   .line3 {
-    background: #379683;
+    background: blue;
     width: 45px;
     height: 2px;
     margin: 5px;
