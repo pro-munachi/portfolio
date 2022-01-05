@@ -6,7 +6,11 @@ function Button(props) {
   const [click, setClick] = useState(true)
   const clickButton = (value) => {
     props.onClick()
-    setClick(value)
+  }
+
+  const trust = (value) => {
+    setClick(!click)
+    console.log('me')
   }
 
   return (
@@ -16,9 +20,9 @@ function Button(props) {
       line2={props.line2}
       line3={props.line3}
     >
-      <div className={click ? 'line1' : 'line1w'}></div>
+      <div className='line1' id='lin'></div>
       <div className='line2'></div>
-      <div className={click ? 'line3' : 'line3w'}></div>
+      <div className='line3' id='linee'></div>
     </ButtonStyle>
   )
 }

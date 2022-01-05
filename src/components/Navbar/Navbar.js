@@ -1,5 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+
+import logo from '../../assets/images/logo1.PNG'
 import { NavStyle } from './style.js'
 import Button from './Button'
 
@@ -90,13 +92,17 @@ class NavBar extends React.Component {
         transform={this.state.toggle}
         display={this.state.displayBackdrop}
       >
-        {/* {(window.onscroll = () => this.checkScroll())} */}
+        {this.state.display ? (
+          <div onClick={this.onClickBackdrop} className='backdrop'></div>
+        ) : null}
         <div
           style={{ ...styleContain, backgroundColor: this.state.background }}
           className='container'
         >
           <div className='logo'>
-            <img src='l.jpg' alt='Logo here' />
+            <NavLink to='/'>
+              <img src={logo} alt='Logo here' />
+            </NavLink>
           </div>
 
           <div className='nav_items_mobile'>

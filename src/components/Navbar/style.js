@@ -23,12 +23,14 @@ export const NavStyle = styled.div`
     transition: 1s;
     z-index: 99;
     .logo {
-      position: relative;
       display: flex;
       align-items: center;
       left: 1em;
+      position: fixed;
+      top: 6px;
       img {
         left: 2em;
+        width: 120px;
       }
     }
     .nav_items_mobile {

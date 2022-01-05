@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const HomeStyle = styled.div`
   width: 80%;
-  margin: 15% auto 0 auto;
+  margin: 90px auto 0 auto;
 
   @media (max-width: 1000px) {
     width: 90%;
