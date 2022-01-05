@@ -17,21 +17,9 @@
   padding: 0;
 }
 
-.test {
-  background-color: white;
-  height: 100vh;
-  width: 100%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.test img {
-  height: 200px;
-  width: 300px;
-}
-.test h1 {
-  font-family: 'Lobster', sans-serif;
-  color: white;
-  font-size: 65px;
+@media (min-width: 1500px) {
+  .App {
+    width: 1300px;
+    margin: auto;
+  }
 }
