@@ -19,7 +19,7 @@ const About = () => {
           <img src={aboutImg} alt='munachi' />
         </div>
         <div className='text'>
-          <h2>Hola</h2>
+          <h2>Salut!!</h2>
           <p>
             I am Madu Stanley Munachiso, A software developer from Nigeria. I
             started my career in tech due to my passion for tech, i have always
@@ -41,7 +41,11 @@ const About = () => {
           </p>
 
           <div className='view'>
-            <a href='jhjh' rel='noreferrer noopener' target='_blank'>
+            <a
+              href='https://drive.google.com/file/d/1nce_I_94meos8kaZoRJJ62LtRjZKjIpC/view?usp=drivesdk'
+              rel='noreferrer noopener'
+              target='_blank'
+            >
               <UnstyledButtonCustom name='View resume' />
             </a>
           </div>
