@@ -11,7 +11,9 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  height: auto;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
   margin: 0;
   padding: 0;
 }
