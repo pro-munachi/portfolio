@@ -94,7 +94,7 @@ const CustomButtonRoot = styled(ButtonRoot)(
       display: flex;
       align-items: center;
       justify-content: center;
-      color: var(--main-color);
+      color: 'red';
       text-transform: uppercase;
     }
 
