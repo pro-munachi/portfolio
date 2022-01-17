@@ -14,6 +14,7 @@ function App() {
   return (
     <div className='App'>
       <NavBar />
+
       <div className='routes'>
         <ScrollToTop>
           <Routes>
@@ -24,6 +25,7 @@ function App() {
             <Route path='/projects/:project' element={<SinglePage />} />
           </Routes>
         </ScrollToTop>
+
         <Footer />
       </div>
     </div>

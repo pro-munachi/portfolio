@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <HomeStyle>
+    <HomeStyle id='home'>
       <h1 className='homa'>
         <span>~/</span>Home
       </h1>
