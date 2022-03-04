@@ -14,6 +14,12 @@ import imma2 from '../images/imma2.PNG'
 import port from '../images/port.PNG'
 import port1 from '../images/port1.PNG'
 import port2 from '../images/port2.PNG'
+import gamelyd from '../images/gamelyd.PNG'
+import gamelyd1 from '../images/gamelyd1.PNG'
+import gamelyd2 from '../images/gamelyd3.PNG'
+import reyvue from '../images/reyvue.PNG'
+import reyvue1 from '../images/reyvue1.PNG'
+import reyvue2 from '../images/reyvue2.PNG'
 import react from '../logos/react-seeklogo.com.svg'
 import material from '../logos/material-ui-seeklogo.com.svg'
 import bootstrap from '../logos/bootstrap-seeklogo.com.svg'
@@ -22,6 +28,7 @@ import express from '../logos/expressjs.png'
 import mongo from '../logos/mongodb-seeklogo.com.svg'
 import redux from '../logos/redux-seeklogo.com.svg'
 import styled from '../logos/styled.png'
+import go from '../logos/go.png'
 
 const cards = [
   {
@@ -105,6 +112,67 @@ const cards = [
 
   {
     id: 4,
+    head: 'Gamelyd',
+    body: 'Gamelyd is a website for hosting free and paid game competitions.',
+    img: gamelyd1,
+    second: gamelyd2,
+    third: gamelyd,
+    arsenal: [
+      { img: react, name: 'Reactjs' },
+      { img: go, name: 'Golang' },
+      { img: styled, name: 'Styled-Components' },
+      { img: material, name: 'Material-Ui' },
+      { img: css, name: 'CSS' },
+    ],
+    links: [
+      {
+        link: 'https://github.com/coders-pro/Gamelyd-frontend',
+        name: 'Git Frontend',
+        id: 1,
+      },
+
+      {
+        link: 'https://github.com/coders-pro/Gamelyd-backend',
+        name: 'Git Backend',
+        id: 2,
+      },
+
+      {
+        link: 'https://gamelyd-madumcbobby.vercel.app/',
+        name: 'Website',
+        id: 3,
+      },
+    ],
+  },
+
+  {
+    id: 5,
+    head: 'Reyvue',
+    body: 'This is a website for dropping sexual reviews.',
+    img: reyvue2,
+    second: reyvue1,
+    third: reyvue,
+    arsenal: [
+      { img: react, name: 'Reactjs' },
+      { img: styled, name: 'Styled-Components' },
+      { img: express, name: 'ExpressJs' },
+    ],
+    links: [
+      {
+        link: '#',
+        name: 'Private Repo',
+        id: 1,
+      },
+      {
+        link: 'https://reyvue.com',
+        name: 'Website',
+        id: 2,
+      },
+    ],
+  },
+
+  {
+    id: 6,
     head: 'Munachi',
     body: 'This is my portfolio website which was built to display my skills.',
     img: port,
@@ -130,7 +198,7 @@ const cards = [
   },
 
   {
-    id: 5,
+    id: 7,
     head: 'Immaculate',
     body: 'Immaculate Eye Clinic is a website for an eye clinic hospital which serves the purpose of providing necessary information to patients.',
     img: imma,

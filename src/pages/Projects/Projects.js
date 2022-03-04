@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <ProjectStyle>
       <h1>
-        <span>~/</span>projects
+        projects <span>:=</span>
       </h1>
 
       <div className='first'>

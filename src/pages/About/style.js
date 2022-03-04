@@ -2,19 +2,17 @@ import styled from 'styled-components'
 
 export const AboutStyle = styled.div`
   width: 80%;
-  margin: 90px auto 0 auto;
+  margin: 120px auto 0 auto;
 
   @media (max-width: 1000px) {
     width: 90%;
   }
 
-  
   .last {
     margin: 15% 0;
   }
 
   .middle {
-
     margin: 15% 0;
 
     h2 {
@@ -29,7 +27,7 @@ export const AboutStyle = styled.div`
       span {
         opacity: 0.5;
       }
-    }  
+    }
   }
 
   .bottom {
@@ -46,7 +44,7 @@ export const AboutStyle = styled.div`
       span {
         opacity: 0.5;
       }
-    }  
+    }
   }
 
   h1 {
@@ -97,13 +95,19 @@ export const AboutStyle = styled.div`
         width: 100%;
       }
 
+      P {
+        @media (max-width: 650px) {
+          font-size: 16px;
+        }
+      }
+
       h2 {
         font-size: 46px;
         @media (max-width: 850px) {
           font-size: 36px;
         }
         @media (max-width: 650px) {
-          font-size: 36px;
+          font-size: 30px;
         }
 
         span {
@@ -116,6 +120,11 @@ export const AboutStyle = styled.div`
         @media (max-width: 750px) {
           width: 100%;
         }
+
+        a {
+          text-decoration: none;
+          width: 100vw;
+        }
         button {
           width: 320px;
           padding: 15px 0;
@@ -123,11 +132,13 @@ export const AboutStyle = styled.div`
           justify-content: center;
           align-items: center;
           @media (max-width: 750px) {
-            width: 100%;
+            width: 320px;
+          }
+          @media (max-width: 550px) {
+            width: 220px;
           }
         }
       }
     }
-
-   
+  }
 `

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const HomeStyle = styled.div`
   width: 80%;
-  margin: 90px auto 0 auto;
+  margin: 120px auto 0 auto;
 
   @media (max-width: 1000px) {
     width: 90%;
@@ -11,6 +11,8 @@ export const HomeStyle = styled.div`
   .homa {
     font-size: 60px;
     font-family: 'Literata', sans-serif;
+    margin: 0;
+
     @media (max-width: 850px) {
       font-size: 47px;
     }
@@ -25,7 +27,7 @@ export const HomeStyle = styled.div`
     width: 100%;
     overflow: hidden;
     align-items: center;
-    margin: 10% 0;
+    margin: 50px 0;
     @media (max-width: 850px) {
       flex-direction: column;
     }
@@ -53,13 +55,13 @@ export const HomeStyle = styled.div`
     }
 
     h1 {
-      font-size: 60px;
+      font-size: 50px;
       font-family: 'Literata', sans-serif;
       @media (max-width: 850px) {
-        font-size: 47px;
+        font-size: 40px;
       }
       @media (max-width: 650px) {
-        font-size: 38px;
+        font-size: 30px;
       }
     }
   }

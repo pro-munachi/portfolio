@@ -1,6 +1,6 @@
 import alien from '../images/alien.PNG'
 import joyride from '../images/joyride.PNG'
-import mcbee from '../images/mcbee.PNG'
+import gamelyd from '../images/gamelyd1.PNG'
 
 const HomeCard = [
   {
@@ -12,10 +12,10 @@ const HomeCard = [
   },
   {
     id: 2,
-    head: 'Mcbee',
-    body: '  Mcbee is an E-commerce website for buying different kinds of goods.',
+    head: 'Gamelyd',
+    body: '  Gamelyd is a website for hosting free and paid game competitions.',
     link: '/',
-    img: mcbee,
+    img: gamelyd,
   },
   {
     id: 3,

@@ -7,7 +7,7 @@ const ContactMe = () => {
   return (
     <ContactStyle>
       <h1>
-        <span>~/</span>contact
+        contact <span>:=</span>
       </h1>
 
       <h2 className='sannu'>
@@ -21,7 +21,7 @@ const ContactMe = () => {
           </h2>
           <div className='top'>
             <h1>CONTACT ME!!!!</h1>
-            <p>
+            <p style={{ fontSize: '16px' }}>
               You have an awesome idea you want me to jump on? Feel free to
               contact me. However, if you have other request or question, I'm
               still up for it.

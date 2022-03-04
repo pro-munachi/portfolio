@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <HomeStyle id='home'>
       <h1 className='homa'>
-        <span>~/</span>Home
+        home <span>:=</span>
       </h1>
       <div className='top'>
         <div className='text'>

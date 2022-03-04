@@ -11,7 +11,7 @@ const About = () => {
   return (
     <AboutStyle>
       <h1>
-        <span>~/</span>about
+        about <span>:=</span>
       </h1>
 
       <div className='first'>

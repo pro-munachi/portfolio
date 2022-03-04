@@ -8,6 +8,12 @@ export const ContactStyle = styled.div`
     width: 90%;
   }
 
+  .p {
+    @media (max-width: 650px) {
+      font-size: 15px;
+    }
+  }
+
   h1 {
     font-size: 60px;
     font-family: 'Literata', sans-serif;
@@ -20,25 +26,9 @@ export const ContactStyle = styled.div`
   }
 
   .sannu {
-    margin-top: 10% ;
+    margin-top: 10%;
 
     h2 {
-        text-align: center;
-        font-size: 46px;
-        @media (max-width: 850px) {
-          font-size: 36px;
-        }
-        @media (max-width: 650px) {
-          font-size: 36px;
-        }
-  
-        span {
-          opacity: 0.5;
-        }
-      }
-    }
-
-  h2 {
       text-align: center;
       font-size: 46px;
       @media (max-width: 850px) {
@@ -52,26 +42,40 @@ export const ContactStyle = styled.div`
         opacity: 0.5;
       }
     }
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 46px;
+    @media (max-width: 850px) {
+      font-size: 36px;
+    }
+    @media (max-width: 650px) {
+      font-size: 36px;
+    }
+
+    span {
+      opacity: 0.5;
+    }
+  }
 
   .first {
+    .left {
+      width: 100%;
 
-  .left {
-    width: 100%;
-  
-
-    .top {
+      /* .top {
         width: 70%
         @media (max-width: 850px) {
           width: 100%;
-        }
+        } */
     }
 
     .bottom {
-        width: 100%;
+      width: 100%;
     }
 
     h2 {
-        text-align: left;
+      text-align: left;
       font-size: 46px;
       @media (max-width: 850px) {
         font-size: 36px;
@@ -79,23 +83,23 @@ export const ContactStyle = styled.div`
       @media (max-width: 650px) {
         font-size: 36px;
       }
-  
+
       span {
         opacity: 0.5;
       }
     }
-  
+
     h1 {
       font-size: 60px;
       font-family: 'Literata', sans-serif;
       @media (max-width: 850px) {
-          font-size: 47px;
-        }
-        @media (max-width: 650px) {
-          font-size: 36px;
-        }
+        font-size: 47px;
+      }
+      @media (max-width: 650px) {
+        font-size: 36px;
+      }
     }
-  
+
     p {
       font-size: 22px;
       width: 70%;
@@ -103,7 +107,7 @@ export const ContactStyle = styled.div`
         width: 100%;
       }
     }
-  
+
     .view {
       width: 50%;
       margin: 35px 0 0 0;
@@ -121,7 +125,6 @@ export const ContactStyle = styled.div`
           width: 100%;
         }
       }
+    }
   }
-
-}
 `

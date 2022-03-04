@@ -30,21 +30,27 @@ import styled from '../../assets/logos/styled.png'
 import expo from '../../assets/logos/expo.png'
 import npm from '../../assets/logos/npm.png'
 import yarn from '../../assets/logos/yarn.png'
+import go from '../../assets/logos/go.png'
 
 const language = [
   {
-    text: 'javascript',
+    text: 'Javascript',
     id: 1,
     image: javascript,
   },
   {
-    text: 'Html',
+    text: 'Golang',
     id: 2,
+    image: go,
+  },
+  {
+    text: 'Html',
+    id: 3,
     image: htm,
   },
   {
     text: 'Css',
-    id: 3,
+    id: 4,
     image: css,
   },
 ]
