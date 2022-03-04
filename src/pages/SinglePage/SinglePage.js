@@ -22,8 +22,8 @@ const SinglePage = () => {
   return (
     <SingleStyle>
       <h1>
-        <span>~/</span>
         {pro.head}
+        <span>:=</span>
       </h1>
 
       <div className='first'>

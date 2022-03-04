@@ -6,7 +6,11 @@ const Footer = () => {
     <FooterStyle>
       <div className='link'>
         <p>
-          <a href='hjjj' rel='noreferrer noopener' target='_blank'>
+          <a
+            href='mailto:madustanley1@gmail.com'
+            rel='noreferrer noopener'
+            target='_blank'
+          >
             Email
           </a>
         </p>

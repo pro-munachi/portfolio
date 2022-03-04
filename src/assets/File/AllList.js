@@ -108,7 +108,7 @@ const all = [
         id: 1,
       },
 
-      { link: 'https://alienbandit.herokuapp.com/', name: 'Website', id: 2 },
+      { link: 'https://alienbandits.com/', name: 'Website', id: 2 },
     ],
   },
 

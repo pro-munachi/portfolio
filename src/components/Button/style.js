@@ -19,7 +19,7 @@ export const CardStyle = styled.div`
   }
   span {
     display: block;
-    padding: 5px 10px;
+    padding: 15px 10px;
     width: 130px;
     text-decoration: none;
   }
