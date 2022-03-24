@@ -81,6 +81,10 @@ export const SingleStyle = styled.div`
 
     p {
       font-size: 22px;
+
+      @media (max-width: 650px) {
+        font-size: 15px;
+      }
     }
   }
 

@@ -262,7 +262,7 @@ const all = [
       },
 
       {
-        link: 'https://gamelyd-madumcbobby.vercel.app/',
+        link: 'https://gamelyd.co/',
         name: 'Website',
         id: 3,
       },

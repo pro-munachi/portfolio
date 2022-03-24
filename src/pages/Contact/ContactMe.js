@@ -1,5 +1,4 @@
 import React from 'react'
-import UnstyledButtonCustom from '../../components/Button/Button'
 
 import { ContactStyle } from './style'
 
@@ -30,7 +29,7 @@ const ContactMe = () => {
           <div className='bottom'>
             <div className='view'>
               <a href='mailto:madustanley1@gmail.com'>
-                <UnstyledButtonCustom name='Send an Email' />
+                <button>Send an Email</button>
               </a>
             </div>
           </div>
