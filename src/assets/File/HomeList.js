@@ -1,6 +1,7 @@
 import alien from '../images/alien.PNG'
 import joyride from '../images/joyride.PNG'
 import gamelyd from '../images/gamelyd1.PNG'
+import mcbee from '../images/mcbee.PNG'
 
 const HomeCard = [
   {
@@ -23,6 +24,13 @@ const HomeCard = [
     body: 'Alien Bandit is a website for an NFT brand Alien Bandits.',
     link: '/',
     img: alien,
+  },
+  {
+    id: 4,
+    head: 'Mcbee',
+    body: '  Mcbee is an E-commerce website for buying different kinds of goods.',
+    link: '/',
+    img: mcbee,
   },
 ]
 

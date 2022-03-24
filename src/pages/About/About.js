@@ -5,7 +5,6 @@ import aboutImg from '../../assets/images/about.png'
 import ColorTabs from '../../components/Tabs/Tabs'
 import Experience from '../../components/Experience/Experience'
 import Contact from '../../components/Contact/Contact'
-import UnstyledButtonCustom from '../../components/Button/Button'
 
 const About = () => {
   return (
@@ -46,7 +45,7 @@ const About = () => {
               rel='noreferrer noopener'
               target='_blank'
             >
-              <UnstyledButtonCustom name='View resume' />
+              <button>View resume</button>
             </a>
           </div>
         </div>

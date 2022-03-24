@@ -64,9 +64,12 @@ export const AboutStyle = styled.div`
     width: 100%;
     overflow: hidden;
     align-items: center;
-    margin: 10% 0;
+    margin: 10% auto;
     @media (max-width: 850px) {
       flex-direction: column-reverse;
+    }
+    button {
+      outline: none;
     }
 
     .img {

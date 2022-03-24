@@ -29,7 +29,7 @@ const Home = () => {
           <span>let</span> projects <span>= [</span>
         </h2>
 
-        <p>Click Image to reveal details</p>
+        <p>Below are some of my projects</p>
 
         <div>
           <Card />
