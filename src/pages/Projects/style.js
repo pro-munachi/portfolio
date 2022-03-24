@@ -15,7 +15,7 @@ export const ProjectStyle = styled.div`
       font-size: 47px;
     }
     @media (max-width: 650px) {
-      font-size: 38px;
+      font-size: 26px;
     }
   }
 
@@ -25,7 +25,7 @@ export const ProjectStyle = styled.div`
       font-size: 36px;
     }
     @media (max-width: 650px) {
-      font-size: 36px;
+      font-size: 20px;
     }
   }
 
@@ -39,7 +39,7 @@ export const ProjectStyle = styled.div`
         font-size: 36px;
       }
       @media (max-width: 650px) {
-        font-size: 36px;
+        font-size: 20px;
       }
 
       span {

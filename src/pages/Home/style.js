@@ -13,11 +13,8 @@ export const HomeStyle = styled.div`
     font-family: 'Literata', sans-serif;
     margin: 0;
 
-    @media (max-width: 850px) {
-      font-size: 47px;
-    }
     @media (max-width: 650px) {
-      font-size: 38px;
+      font-size: 26px;
     }
   }
 
@@ -42,11 +39,8 @@ export const HomeStyle = styled.div`
     h2 {
       font-size: 46px;
 
-      @media (max-width: 850px) {
-        font-size: 36px;
-      }
       @media (max-width: 650px) {
-        font-size: 26px;
+        font-size: 20px;
       }
 
       span {
@@ -61,7 +55,7 @@ export const HomeStyle = styled.div`
         font-size: 40px;
       }
       @media (max-width: 650px) {
-        font-size: 30px;
+        font-size: 26px;
       }
     }
   }
@@ -93,7 +87,7 @@ export const HomeStyle = styled.div`
         font-size: 36px;
       }
       @media (max-width: 650px) {
-        font-size: 36px;
+        font-size: 26px;
       }
 
       span {
@@ -105,6 +99,10 @@ export const HomeStyle = styled.div`
       font-size: 22px;
       text-align: center;
       font-style: italic;
+
+      @media (max-width: 650px) {
+        font-size: 16px;
+      }
     }
 
     .view {

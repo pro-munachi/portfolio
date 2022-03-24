@@ -42,7 +42,7 @@ const SinglePage = () => {
 
       <div className='second'>
         <h2>
-          <span>let</span> about <span>= [</span>
+          <span>let</span> About <span>= [</span>
         </h2>
         <p>{pro.body}</p>
         <h2>
@@ -52,7 +52,7 @@ const SinglePage = () => {
 
       <div className='third'>
         <h2>
-          <span>let</span> stack <span>= [</span>
+          <span>let</span> Stack <span>= [</span>
         </h2>
         <div className='tab'>
           {pro.arsenal &&
@@ -70,7 +70,7 @@ const SinglePage = () => {
 
       <div className='fourth'>
         <h2>
-          <span>let</span> links <span>= [</span>
+          <span>let</span> Links <span>= [</span>
         </h2>
         <div>
           <div className='web'>

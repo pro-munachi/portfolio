@@ -28,6 +28,10 @@ export const TabStyle = styled.div`
 
       @media (max-width: 651px) {
         width: 260px;
+        :hover {
+          width: 265px;
+          transition: 0.5s ease-in-out;
+        }
       }
 
       img {

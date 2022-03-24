@@ -7,11 +7,9 @@ export const ContactStyle = styled.div`
   }
   h2 {
     font-size: 46px;
-    @media (max-width: 850px) {
-      font-size: 36px;
-    }
+
     @media (max-width: 650px) {
-      font-size: 36px;
+      font-size: 20px;
     }
 
     span {
@@ -22,16 +20,18 @@ export const ContactStyle = styled.div`
   h1 {
     font-size: 60px;
     font-family: 'Literata', sans-serif;
-    @media (max-width: 850px) {
-        font-size: 47px;
-      }
-      @media (max-width: 650px) {
-        font-size: 36px;
-      }
+
+    @media (max-width: 650px) {
+      font-size: 26px;
+    }
   }
 
   p {
     font-size: 22px;
+
+    @media (max-width: 650px) {
+      font-size: 15px;
+    }
   }
 
   .view {
@@ -51,4 +51,5 @@ export const ContactStyle = styled.div`
         width: 100%;
       }
     }
+  }
 `

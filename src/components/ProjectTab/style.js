@@ -19,6 +19,10 @@ export const TabStyle = styled.div`
       font-size: 17px;
       color: #379683;
       cursor: pointer;
+
+      @media (max-width: 650px) {
+        font-size: 14px;
+      }
     }
     .inactive {
       background: white;
@@ -26,6 +30,10 @@ export const TabStyle = styled.div`
       border: none;
       font-size: 17px;
       cursor: pointer;
+
+      @media (max-width: 650px) {
+        font-size: 14px;
+      }
     }
   }
 
