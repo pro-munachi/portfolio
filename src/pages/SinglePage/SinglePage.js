@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom'
 
 import { SingleStyle } from './style'
 import all from '../../assets/File/AllList'
-import UnstyledButtonCustom from '../../components/Button/Button'
 import Contact from '../../components/Contact/Contact'
 
 const SinglePage = () => {
@@ -82,7 +81,7 @@ const SinglePage = () => {
                   rel='noreferrer noopener'
                   target='_blank'
                 >
-                  <UnstyledButtonCustom name={item.name} />
+                  <button> {item.name} </button>
                 </a>
               ))}
           </div>

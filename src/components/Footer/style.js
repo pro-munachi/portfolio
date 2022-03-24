@@ -26,10 +26,19 @@ export const FooterStyle = styled.footer`
         text-decoration: none;
         font-size: 20px;
         color: #379683;
+
+        @media (max-width: 650px) {
+          font-size: 16px;
+        }
       }
     }
   }
 
   .copyright {
+    font-size: 18px;
+
+    @media (max-width: 650px) {
+      font-size: 16px;
+    }
   }
 `

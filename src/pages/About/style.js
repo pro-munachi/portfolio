@@ -134,6 +134,12 @@ export const AboutStyle = styled.div`
           display: flex;
           justify-content: center;
           align-items: center;
+          background-color: #379683;
+          color: white;
+          border: none;
+          outline: none;
+          border-radius: 6px;
+
           @media (max-width: 750px) {
             width: 320px;
           }

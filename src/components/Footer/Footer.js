@@ -2,6 +2,10 @@ import React from 'react'
 import { FooterStyle } from './style'
 
 const Footer = () => {
+  const date = new Date()
+
+  let year = date.getFullYear()
+
   return (
     <FooterStyle>
       <div className='link'>
@@ -34,7 +38,7 @@ const Footer = () => {
         </p>
       </div>
       <div className='copyright'>
-        <p> &copy; Munachiso 2022</p>
+        <p> &copy; Munachiso {year}</p>
       </div>
     </FooterStyle>
   )

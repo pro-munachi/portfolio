@@ -113,13 +113,20 @@ export const HomeStyle = styled.div`
       }
       button {
         width: 320px;
-        margin: auto;
+        margin: 10px auto;
         padding: 15px 0;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #379683;
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 6px;
+
         @media (max-width: 750px) {
-          width: 100%;
+          width: 300px;
+          border-radius: 6px;
         }
       }
     }

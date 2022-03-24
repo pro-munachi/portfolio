@@ -47,7 +47,13 @@ export const ContactStyle = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      @media (max-width: 750px) {
+      background-color: #379683;
+      color: white;
+      border: none;
+      outline: none;
+      border-radius: 6px;
+
+      @media (max-width: 650px) {
         width: 100%;
       }
     }

@@ -145,6 +145,24 @@ export const SingleStyle = styled.div`
   .fourth {
     margin: 15% 0;
 
+    button {
+      width: 320px;
+      margin: auto;
+      padding: 15px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #379683;
+      color: white;
+      border: none;
+      outline: none;
+      border-radius: 6px;
+
+      @media (max-width: 650px) {
+        width: 100%;
+      }
+    }
+
     h2 {
       font-size: 46px;
       @media (max-width: 850px) {
@@ -163,6 +181,7 @@ export const SingleStyle = styled.div`
       display: flex;
       justify-content: flex-start;
       flex-wrap: wrap;
+      flex-direction: column;
 
       @media (max-width: 651px) {
         justify-content: center;
