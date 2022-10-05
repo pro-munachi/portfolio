@@ -4,16 +4,12 @@ import meme2 from "../images/meme2.PNG";
 import coupon from "../images/coupon.PNG";
 import coupon1 from "../images/coupon1.PNG";
 import coupon2 from "../images/coupon2.PNG";
-import github from "../images/github.PNG";
-import github1 from "../images/github1.PNG";
-import github2 from "../images/github2.PNG";
-import react from "../logos/react-seeklogo.com.svg";
-import css from "../logos/css-3-seeklogo.com.svg";
-import html from "../logos/html5-without-wordmark-color.svg";
-import redux from "../logos/redux-seeklogo.com.svg";
-import express from "../logos/expressjs.png";
 import Github from "../images/github.png";
 import Github1 from "../images/github1.png";
+import react from "../logos/react-seeklogo.com.svg";
+import css from "../logos/css-3-seeklogo.com.svg";
+import redux from "../logos/redux-seeklogo.com.svg";
+import express from "../logos/expressjs.png";
 import hos from "../images/hos.jpeg";
 import hos1 from "../images/hos1.jpeg";
 import expo from "../logos/expo.png";
@@ -91,31 +87,31 @@ const play = [
     ],
   },
 
-  {
-    id: 3,
-    head: "Github",
-    body: "Replicated the repository page of github for a job interview i had.",
-    img: github1,
-    first: github,
-    second: github2,
-    arsenal: [
-      { img: html, name: "HTML" },
-      { img: css, name: "CSS" },
-    ],
-    links: [
-      {
-        link: "https://github.com/pro-munachi/Git-hub",
-        name: "Github",
-        id: 1,
-      },
+  // {
+  //   id: 3,
+  //   head: "Github",
+  //   body: "Replicated the repository page of github for a job interview i had.",
+  //   img: github1,
+  //   first: github,
+  //   second: github2,
+  //   arsenal: [
+  //     { img: html, name: "HTML" },
+  //     { img: css, name: "CSS" },
+  //   ],
+  //   links: [
+  //     {
+  //       link: "https://github.com/pro-munachi/Git-hub",
+  //       name: "Github",
+  //       id: 1,
+  //     },
 
-      {
-        link: "https://epic-jones-15604d.netlify.app/",
-        name: "Website",
-        id: 2,
-      },
-    ],
-  },
+  //     {
+  //       link: "https://epic-jones-15604d.netlify.app/",
+  //       name: "Website",
+  //       id: 2,
+  //     },
+  //   ],
+  // },
   {
     id: 4,
     head: "Hospital",

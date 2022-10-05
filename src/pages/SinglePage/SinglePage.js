@@ -1,22 +1,22 @@
-import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 
-import { SingleStyle } from './style'
-import all from '../../assets/File/AllList'
-import Contact from '../../components/Contact/Contact'
+import { SingleStyle } from "./style";
+import all from "../../assets/File/AllList";
+import Contact from "../../components/Contact/Contact";
 
 const SinglePage = () => {
-  const [pro, setPro] = useState([])
+  const [pro, setPro] = useState([]);
 
-  let project = useParams()
+  let project = useParams();
 
   useEffect(() => {
     for (let i = 0; i < all.length; i++) {
       if (project.project === all[i].head) {
-        setPro(all[i])
+        setPro(all[i]);
       }
     }
-  }, [project])
+  }, [project]);
 
   return (
     <SingleStyle>
@@ -24,22 +24,22 @@ const SinglePage = () => {
         {pro.head} <span>:=</span>
       </h1>
 
-      <div className='first'>
+      <div className="first">
         <h2>
           Pẹlẹ o!! <span>Care to know more about this project?</span>
         </h2>
 
-        <p href={pro.web} className='link'>
+        <p href={pro.web} className="link">
           {pro.head}
         </p>
 
-        <div className='img'>
+        <div className="img">
           <img src={pro.second} alt={pro.head} />
           <img src={pro.third} alt={pro.head} />
         </div>
       </div>
 
-      <div className='second'>
+      <div className="second">
         <h2>
           <span>let</span> About <span>= [</span>
         </h2>
@@ -49,14 +49,14 @@ const SinglePage = () => {
         </h2>
       </div>
 
-      <div className='third'>
+      <div className="third">
         <h2>
           <span>let</span> Stack <span>= [</span>
         </h2>
-        <div className='tab'>
+        <div className="tab">
           {pro.arsenal &&
             pro.arsenal.map((item) => (
-              <div className='language' key={item.name}>
+              <div className="language" key={item.name}>
                 <img src={item.img} alt={item.name} />
                 <b>{item.name}</b>
               </div>
@@ -67,21 +67,21 @@ const SinglePage = () => {
         </h2>
       </div>
 
-      <div className='fourth'>
+      <div className="fourth">
         <h2>
           <span>let</span> Links <span>= [</span>
         </h2>
         <div>
-          <div className='web'>
+          <div className="web">
             {pro.links &&
               pro.links.map((item) => (
                 <a
                   href={item.link}
                   key={item.id}
-                  rel='noreferrer noopener'
-                  target='_blank'
+                  rel="noreferrer noopener"
+                  target="_blank"
                 >
-                  <button> {item.name} </button>
+                  <button style={{ cursor: "pointer" }}> {item.name} </button>
                 </a>
               ))}
           </div>
@@ -91,11 +91,11 @@ const SinglePage = () => {
         </h2>
       </div>
 
-      <div style={{ marginTop: '15%' }}>
+      <div style={{ marginTop: "15%" }}>
         <Contact />
       </div>
     </SingleStyle>
-  )
-}
+  );
+};
 
-export default SinglePage
+export default SinglePage;

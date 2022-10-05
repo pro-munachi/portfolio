@@ -15,7 +15,7 @@ import meme1 from "../images/meme1.PNG";
 import meme2 from "../images/meme2.PNG";
 import coupon1 from "../images/coupon1.PNG";
 import coupon2 from "../images/coupon2.PNG";
-import github from "../images/github.PNG";
+import github from "../logos/expressjs.png";
 import gamelyd from "../images/gamelyd.PNG";
 import gamelyd1 from "../images/gamelyd1.PNG";
 import gamelyd2 from "../images/gamelyd3.PNG";

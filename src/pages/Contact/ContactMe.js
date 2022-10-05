@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-import { ContactStyle } from './style'
+import { ContactStyle } from "./style";
 
 const ContactMe = () => {
   return (
@@ -9,27 +9,27 @@ const ContactMe = () => {
         contact <span>:=</span>
       </h1>
 
-      <h2 className='sannu'>
+      <h2 className="sannu">
         Sannu!! <span>Do you have a crazy idea?</span>
       </h2>
 
-      <div className='first'>
-        <div className='left'>
+      <div className="first">
+        <div className="left">
           <h2>
             <span>let</span> contact <span>= [</span>
           </h2>
-          <div className='top'>
+          <div className="top">
             <h1>CONTACT ME!!!!</h1>
-            <p style={{ fontSize: '16px' }}>
+            <p style={{ fontSize: "16px" }}>
               You have an awesome idea you want me to jump on? Feel free to
               contact me. However, if you have other request or question, I'm
               still up for it.
             </p>
           </div>
-          <div className='bottom'>
-            <div className='view'>
-              <a href='mailto:madustanley1@gmail.com'>
-                <button>Send an Email</button>
+          <div className="bottom">
+            <div className="view">
+              <a href="mailto:madustanley1@gmail.com">
+                <button style={{ cursor: "pointer" }}>Send an Email</button>
               </a>
             </div>
           </div>
@@ -40,7 +40,7 @@ const ContactMe = () => {
         </div>
       </div>
     </ContactStyle>
-  )
-}
+  );
+};
 
-export default ContactMe
+export default ContactMe;

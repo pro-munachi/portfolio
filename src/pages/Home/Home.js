@@ -1,29 +1,29 @@
-import React from 'react'
-import { HomeStyle } from './style'
-import homepi from '../../assets/images/home.png'
-import Card from '../../components/Card/Card'
-import Contact from '../../components/Contact/Contact'
-import { NavLink } from 'react-router-dom'
+import React from "react";
+import { HomeStyle } from "./style";
+import homepi from "../../assets/images/home.png";
+import Card from "../../components/Card/Card";
+import Contact from "../../components/Contact/Contact";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
-    <HomeStyle id='home'>
-      <h1 className='homa'>
+    <HomeStyle id="home">
+      <h1 className="homa">
         home <span>:=</span>
       </h1>
-      <div className='top'>
-        <div className='text'>
+      <div className="top">
+        <div className="text">
           <h2>
             Hola!! I am <span>Madu Stanley</span>
           </h2>
           <h1>A SOFTWARE DEVELOPER</h1>
         </div>
-        <div className='img'>
-          <img src={homepi} alt='home' />
+        <div className="img">
+          <img src={homepi} alt="home" />
         </div>
       </div>
 
-      <div className='middle'>
+      <div className="middle">
         <h2>
           <span>let</span> projects <span>= [</span>
         </h2>
@@ -32,8 +32,8 @@ const Home = () => {
 
         <div>
           <Card />
-          <NavLink className='view' to='/projects'>
-            <button>View More</button>
+          <NavLink className="view" to="/projects">
+            <button style={{ cursor: "pointer" }}>View More</button>
           </NavLink>
         </div>
         <h2>
@@ -41,11 +41,11 @@ const Home = () => {
         </h2>
       </div>
 
-      <div className='last'>
+      <div className="last">
         <Contact />
       </div>
     </HomeStyle>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

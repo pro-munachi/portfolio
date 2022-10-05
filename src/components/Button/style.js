@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const CardStyle = styled.div`
   .but-contain {
@@ -25,18 +25,19 @@ export const CardStyle = styled.div`
   }
   button::before,
   button::after {
-    content: '';
+    content: "";
     width: 0;
     height: 2px;
     position: absolute;
     transition: all 0.2s linear;
     background: #fff;
     text-decoration: none;
+    cursor: pointer;
   }
 
   span::before,
   span::after {
-    content: '';
+    content: "";
     width: 2px;
     height: 0;
     position: absolute;
@@ -59,28 +60,34 @@ export const CardStyle = styled.div`
     left: 50%;
     top: 0;
     transition-duration: 0.4s;
+    cursor: pointer;
   }
   .btn-6::after {
     left: 50%;
     bottom: 0;
     transition-duration: 0.4s;
+    cursor: pointer;
   }
   .btn-6 span::before {
     left: 0;
     top: 50%;
     transition-duration: 0.4s;
+    cursor: pointer;
   }
   .btn-6 span::after {
     right: 0;
     top: 50%;
     transition-duration: 0.4s;
+    cursor: pointer;
   }
   .btn-6:hover::before,
   .btn-6:hover::after {
     left: 0;
+    cursor: pointer;
   }
   .btn-6:hover span::before,
   .btn-6:hover span::after {
     top: 0;
+    cursor: pointer;
   }
-`
+`;

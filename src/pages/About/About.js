@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
-import { AboutStyle } from './style'
-import aboutImg from '../../assets/images/about.png'
-import ColorTabs from '../../components/Tabs/Tabs'
-import Experience from '../../components/Experience/Experience'
-import Contact from '../../components/Contact/Contact'
+import { AboutStyle } from "./style";
+import aboutImg from "../../assets/images/about.png";
+import ColorTabs from "../../components/Tabs/Tabs";
+import Experience from "../../components/Experience/Experience";
+import Contact from "../../components/Contact/Contact";
 
 const About = () => {
   return (
@@ -13,11 +13,11 @@ const About = () => {
         about <span>:=</span>
       </h1>
 
-      <div className='first'>
-        <div className='img'>
-          <img src={aboutImg} alt='munachi' />
+      <div className="first">
+        <div className="img">
+          <img src={aboutImg} alt="munachi" />
         </div>
-        <div className='text'>
+        <div className="text">
           <h2>Salut!!</h2>
           <p>
             I am Madu Stanley Munachiso, A software developer from Nigeria. I
@@ -39,19 +39,19 @@ const About = () => {
             importantly, i am a fan of literally every genre of music.
           </p>
 
-          <div className='view'>
+          <div className="view">
             <a
-              href='https://drive.google.com/file/d/1nce_I_94meos8kaZoRJJ62LtRjZKjIpC/view?usp=drivesdk'
-              rel='noreferrer noopener'
-              target='_blank'
+              href="https://docs.google.com/document/d/13JI_33j_zm57MKTiS4XmskX6suMoPPKkVm0K9UhxSvY/"
+              rel="noreferrer noopener"
+              target="_blank"
             >
-              <button>View resume</button>
+              <button style={{ cursor: "pointer" }}>View resume</button>
             </a>
           </div>
         </div>
       </div>
 
-      <div className='middle'>
+      <div className="middle">
         <h2>
           <span>let</span> myArsenal <span>= [</span>
         </h2>
@@ -65,7 +65,7 @@ const About = () => {
         </h2>
       </div>
 
-      <div className='bottom'>
+      <div className="bottom">
         <h2>
           <span>let</span> myExperience <span>= [</span>
         </h2>
@@ -79,11 +79,11 @@ const About = () => {
         </h2>
       </div>
 
-      <div className='last'>
+      <div className="last">
         <Contact />
       </div>
     </AboutStyle>
-  )
-}
+  );
+};
 
-export default About
+export default About;
